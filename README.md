@@ -11,7 +11,7 @@ ChaChaBench is a diagnostic benchmark designed to evaluate the ability of Vision
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/robertocarlosjuan/ChaChaBench.git
    cd ChaChaBench
    ```
 2. Install dependencies:
