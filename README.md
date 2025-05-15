@@ -6,7 +6,6 @@ ChaChaBench is a diagnostic benchmark designed to evaluate the ability of Vision
 - Diverse set of camera motion scenarios (e.g., pan, tilt, zoom, orbit)
 - Task suite for both recognition and reasoning about camera motion
 - Compatible with popular VLMs and evaluation pipelines
-- Easy-to-use dataset and evaluation scripts
 
 ## Installation
 1. Clone the repository:
