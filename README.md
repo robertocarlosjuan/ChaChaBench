@@ -17,6 +17,11 @@ ChaChaBench is a diagnostic benchmark designed to evaluate the ability of Vision
    ```bash
    pip install -r requirements.txt
    ```
+3. Create a data folder
+   ```bash
+   mkdir data
+   ```
+   Load data from [HuggingFace](https://huggingface.co/datasets/carihe/ChaChaBench)
 
 ## Usage
 Example usage for evaluating a model:
