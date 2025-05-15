@@ -52,7 +52,7 @@ class QwenModel:
 
         generated_ids = self.model.generate(
             **inputs, 
-            max_new_tokens=2048,
+            max_new_tokens=512,
             **generation_config
             )
         
