@@ -35,6 +35,21 @@ To evaluate on ChaChaBench, run:
 python main.py --model_path <model_path>
 ```
 
+## Data Curation
+
+### Pre-Requisite
+Please follow the [OmniGibson intallation](https://behavior.stanford.edu/omnigibson/getting_started/installation.html) documentation. You will need a GPU > RTX2070 to run this.
+In `omni-control/__init__.py`, update the macros for `gm.ASSET_PATH`, `gm.DATASET_PATH`, and `gm.KEY_PATH`, based on your installation directories.
+
+After installation, To create dataset using OmniGibson on the BEHAVIOR-1K Dataset, run:
+
+```
+python -m omni-control.generate_single_command_data
+```
+
+You can change the location output directory through the `omni-control/config.py`, and the hard variables set inside `omni-control/generate_single_command_data`.
+
+
 ## Results
 
 | Model                   | Avg F1 (%) |
