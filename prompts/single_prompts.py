@@ -85,5 +85,5 @@ qwen_cot_mapper = {
     "J": "move right",
     "K": "move up",
     "L": "move down",
-    "N": "None of the above",
+    "N": "none of the above",
 }
